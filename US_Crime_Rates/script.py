@@ -8,3 +8,8 @@ df = pd.read_csv(path)
 # print(df.info)
 
 print(df.describe())
+
+dic = {"hello": 1, "hi": 20}
+
+for k, v in dic.items:
+    print(k, v)
